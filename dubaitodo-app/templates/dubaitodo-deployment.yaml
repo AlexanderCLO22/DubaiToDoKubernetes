@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: dubaitodo-container
-        image: aleoje/dubaitodo:latest
+        image: ghcr.io/alexanderclo22/theapp:latest
         ports:
         - containerPort: 80
         envFrom:
