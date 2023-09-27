@@ -26,13 +26,13 @@ jobs:
     - name: Build and Push Docker image
       run: |
         cd TheApp
-        docker build -t ghcr.io/AlexanderCLO22/theapp:${{ github.sha }} .
-        docker push ghcr.io/AlexanderCLO22/theapp:${{ github.sha }}
+        docker build -t ghcr.io/alexanderclo22/theapp:${{ github.sha }} .
+        docker push ghcr.io/alexanderclo22/theapp:${{ github.sha }}
         
     # Update the Kubernetes manifests to use the new image tag
     - name: Update Kubernetes manifests
       run: |
-        sed -i 's|ghcr.io/AlexanderCLO22/theapp:.*|ghcr.io/AlexanderCLO22/theapp:${{ github.sha }}|' dubaitodo-app/templates/dubaitodo-deployment.yaml
+        sed -i 's|ghcr.io/alexanderclo22/theapp:.*|ghcr.io/alexanderclo22/theapp:${{ github.sha }}|' dubaitodo-app/templates/dubaitodo-deployment.yaml
     # Commit and push the updated manifests back to the repository
     - name: Commit and push updated manifests
       run: |
