@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-config
+data:
+  MongoDBDatabaseName: "DubaiToDo"
+  MongoDBConnectionString: "mongodb+srv://98aleoje:SecretOwl@cluster0.ltosx2t.mongodb.net/"

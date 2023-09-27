@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dubaitodo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dubaitodo
+  template:
+    metadata:
+      labels:
+        app: dubaitodo
+    spec:
+      containers:
+      - name: dubaitodo-container
+        image: aleoje/dubaitodo:latest
+        ports:
+        - containerPort: 80
+        envFrom:
+        - configMapRef:
+            name: app-config

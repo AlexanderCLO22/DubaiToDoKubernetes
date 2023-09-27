@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  Authentication__Google__ClientSecret: "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"
+  Authentication__Google__ClientId: "391551761416-sgdj0k12ov4d9hhhoa8bjh4t7le5ibg2.apps.googleusercontent.com"

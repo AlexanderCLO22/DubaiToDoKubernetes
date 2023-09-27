@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dubaiowlsapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dubaiowlsapi
+  template:
+    metadata:
+      labels:
+        app: dubaiowlsapi
+    spec:
+      containers:
+      - name: dubaitodoapi-container
+        image: aleoje/dubaiowlsapi:latest
+        ports:
+        - containerPort: 80
+#        envFrom:
+#        - configMapRef:
+#            name: api-config
