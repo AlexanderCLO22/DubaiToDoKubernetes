@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DWEO4WIcDdcSU2W5aRTzhDEk8nIgXW4r9gJjoIZt2U4KoGaAFD+ZMNsA4rIKu2pSXseKVCv3WbAEluTYeQZyQg==",
+  "dgSpecHash": "eVGDshVEAcB6Z7sglTHGYROpVxkTHPamTOkCmVpgZK8NEYeRpJPsYUXmTDBipj21lu1nmjBNwwNBQcJ+mPd6kQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\VSCodeStuff\\DubaiToDoKubernetes\\DubaiToDoKubernetes.csproj",
+  "projectFilePath": "C:\\Users\\User\\VSCodeStuff\\DubaiToDoKubernetes\\TheApp\\DubaiToDoKubernetes.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

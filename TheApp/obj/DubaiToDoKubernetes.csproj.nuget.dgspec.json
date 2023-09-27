@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\VSCodeStuff\\DubaiToDoKubernetes\\DubaiToDoKubernetes.csproj": {}
+    "C:\\Users\\User\\VSCodeStuff\\DubaiToDoKubernetes\\TheApp\\DubaiToDoKubernetes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\VSCodeStuff\\DubaiToDoKubernetes\\DubaiToDoKubernetes.csproj": {
+    "C:\\Users\\User\\VSCodeStuff\\DubaiToDoKubernetes\\TheApp\\DubaiToDoKubernetes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\VSCodeStuff\\DubaiToDoKubernetes\\DubaiToDoKubernetes.csproj",
+        "projectUniqueName": "C:\\Users\\User\\VSCodeStuff\\DubaiToDoKubernetes\\TheApp\\DubaiToDoKubernetes.csproj",
         "projectName": "DubaiToDoKubernetes",
-        "projectPath": "C:\\Users\\User\\VSCodeStuff\\DubaiToDoKubernetes\\DubaiToDoKubernetes.csproj",
+        "projectPath": "C:\\Users\\User\\VSCodeStuff\\DubaiToDoKubernetes\\TheApp\\DubaiToDoKubernetes.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\VSCodeStuff\\DubaiToDoKubernetes\\obj\\",
+        "outputPath": "C:\\Users\\User\\VSCodeStuff\\DubaiToDoKubernetes\\TheApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
