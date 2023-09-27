@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: dubaitodo-container
-        image: ghcr.io/alexanderclo22/theapp:latest
+        image: ghcr.io/alexanderclo22/theapp:41c1c9b281e7b4d8f3d9bf6fefc379ef2609f740
         ports:
         - containerPort: 80
         envFrom:
